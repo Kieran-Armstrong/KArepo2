@@ -1,9 +1,9 @@
 
 def charReplace(string):      
-    string.replace("i", "1")
-    string.replace("I", "1")
+    newString = string.replace("i", "1") 
+    newString = newString.replace("I", "1")
     
-    print(string)
+    print(newString)
 
 charReplace("iIIi")
 

@@ -1,0 +1,5 @@
+Apps so far:
+
+Replace char - replaces characters with their numerical counterparts e.g. "i" becomes 1, "e" becomes 3
+
+Calculator - Simple calculator app 

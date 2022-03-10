@@ -1,7 +1,7 @@
 
-def func1(string):
+def charReplace(string):
     newString = string.replace("a", "b")
     print(newString)
 
-func1("that aat")
+charReplace("that aat")
 

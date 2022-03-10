@@ -3,8 +3,10 @@ from multiprocessing.sharedctypes import Value
 
 def calculator(a, b, op):
     global output 
-
     output = 0 
+
+    
+
     
     if op == "+":
         output = (a + b)
@@ -25,8 +27,13 @@ while True:
     else:
         break
 
+while True:
+        op = input("Please enter the operation you would like to carry out ")
+        if op not in ("+", "-", "/", "*"):
+            print("Please enter one of the following + - * /")
+        else:
+            break
 
-op = input("Please enter operation you would like to carry out ")
 
 calculator(a, b, op)
 

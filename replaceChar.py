@@ -1,7 +1,9 @@
 
-def charReplace(string):
-    newString = string.replace("a", "b")
-    print(newString)
+def charReplace(string):      
+    string.replace("i", "1")
+    string.replace("I", "1")
+    
+    print(string)
 
-charReplace("that aat")
+charReplace("iIIi")
 

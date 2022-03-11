@@ -6,7 +6,7 @@ def encrypt(plainText, encrpytKey):
     encryptText = ""
     for character in plainText:
         if character.isalpha():
-            character.lower()
+            character = character.lower()
             charIndex = alphabet.index(character)
             newIndex = (charIndex + encrpytKey) % 26
             cipherChar = alphabet[newIndex].upper()

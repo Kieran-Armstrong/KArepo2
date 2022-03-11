@@ -1,0 +1,7 @@
+Welcome to calculator
+
+In this app, you will be able to enter 2 separate numbers, as well as an operation 
+
+The program will then output the answer to this calculation
+
+

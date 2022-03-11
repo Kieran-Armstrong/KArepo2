@@ -1,0 +1,17 @@
+Welcome to the Replace Character app
+
+This app will allow you to input a string, it will then convert some of the letter to numbers.
+
+The replacement key is as follows:
+
+I/i = 1
+E/e = 3
+A/a = 4
+S/s = 5
+B/b = 6
+T/t = 7
+O/o = 0 
+
+The program will then output your new string 
+
+

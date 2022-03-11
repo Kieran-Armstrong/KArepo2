@@ -14,11 +14,19 @@ def coinFlip():
 userScore = 0
 cpuScore = 0
 
-noRounds = int(input("How many rounds would you like to play? "))
+while True:
+    try:
+        noRounds = int(input("How many rounds would you like to play? "))
+    except ValueError:
+        print("That was an invalid input, please enter a whole number")
+    else:
+        break
+
+
 round = 1
 
 
-while round < noRounds:
+while round <= noRounds:
     print("Round: " + str(round))
     while True:
         guess = input("Guess heads or tails: ")

@@ -1,9 +1,14 @@
 Apps so far:
 
-Replace char - replaces characters with their numerical counterparts e.g. "i" becomes 1, "e" becomes 3
+Replace char - Replaces characters with their numerical counterparts e.g. "i" becomes 1, "e" becomes 3
 
 Calculator - Simple calculator app
 
 Code Breaker - Shift cypher --- enter a code to be encrypted, then decrypt our code
 
+Heads or Tails - A simple coin flip game, where you play against the computer to guess heads or tails. The final score will be displayed at the end to let you know who won.
+
+QR generator - Enter a web URL to generate it's QR code, save and scan the QR code to get to the web page 
+
+ 
  

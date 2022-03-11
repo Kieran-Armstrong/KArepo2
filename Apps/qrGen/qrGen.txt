@@ -1,0 +1,9 @@
+This is a simple QR code generator
+
+Enter a URL when prompted, and the program will generate a QR code for that URL
+
+The program will then ask you to enter a file name for that URL
+
+The QR code will save as a .svg file, ready for you to open and scan
+
+

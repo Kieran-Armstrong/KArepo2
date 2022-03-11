@@ -1,5 +1,7 @@
 import random
 from tkinter import N
+from time import sleep
+
 
 play = True
 
@@ -39,20 +41,29 @@ while play:
             else:
                 break
         coinFlip()
+        sleep(0.5)
         print("Result was " + flipResult)
+        sleep(1)
+
         if flipResult == guess:
             print("Good Guess!")
             userScore += 1
         else:
             print("Unlucky")
             cpuScore += 1
+
+        sleep(1)
         print("Your current score is " + str(userScore))
+        sleep(1)
         print("The computers score is " + str(cpuScore))
+        sleep(1)
 
         round += 1
-
+    sleep(1)
     print("Your final score was " + str(userScore))
+    sleep(1)
     print("The computers final score was " + str(cpuScore))
+    sleep(1)
 
     if userScore > cpuScore:
         print("Congrats, you won!")

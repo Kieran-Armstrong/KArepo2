@@ -2,4 +2,8 @@ Apps so far:
 
 Replace char - replaces characters with their numerical counterparts e.g. "i" becomes 1, "e" becomes 3
 
-Calculator - Simple calculator app 
+Calculator - Simple calculator app
+
+Code Breaker - Shift cypher --- enter a code to be encrypted, then decrypt our code
+
+ 

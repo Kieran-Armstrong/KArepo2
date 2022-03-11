@@ -56,3 +56,18 @@ while True:
 
 decrypt(decryptText, decryptKey)
 
+while True:
+    userAns = input("Okay, now try decrypt this: zhoo grqh!. The shift is 3 ")
+    if userAns.lower() != ("well done"):
+        print("Unlucky! Try Again")
+    else:
+        print("Well done! You got it!")
+        break
+
+
+
+
+
+
+
+

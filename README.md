@@ -4,5 +4,7 @@ This is my new repo
 
 I have created a few simple apps to try 
 
+Find them in the apps folder
+
 :) 
 

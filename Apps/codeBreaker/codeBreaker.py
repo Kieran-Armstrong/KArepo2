@@ -56,9 +56,22 @@ while True:
 
 decrypt(decryptText, decryptKey)
 
+print("Now here's a challenge, try to decrypt the message below: ")
+
+import string 
+import random
+
+chalMsg = ("".join(random.choices(string.ascii_lowercase, k = 5)))
+
+chalShift = (random.randint(1, 5))
+
+encrypt(chalMsg, chalShift)
+
+print("The shift key is " + str(chalShift))
+
 while True:
-    userAns = input("Okay, now try decrypt this: zhoo grqh!. The shift is 3 ")
-    if userAns.lower() != ("well done"):
+    userAns = input("Answer: ")
+    if userAns.lower() != chalMsg:
         print("Unlucky! Try Again")
     else:
         print("Well done! You got it!")

@@ -1,0 +1,23 @@
+Welcome to Code Breaker!
+
+------------------------
+
+First, you will be asked to enter a code to encrypt, using a shift cypher. 
+
+You also get to choose how far it shifts
+
+------------------------
+
+Next, you will have to enter a code that the computer will decrypt for you.
+
+------------------------
+
+Lastly, you will be given a code, along with how far it has been shifted.
+
+Have a go at decrypting this!
+
+------------------------
+
+GOOD LUCK!
+
+

@@ -10,5 +10,7 @@ Heads or Tails - A simple coin flip game, where you play against the computer to
 
 QR generator - Enter a web URL to generate it's QR code, save and scan the QR code to get to the web page 
 
+calcGUI - Another simple calculator, except this time it has a GUI to click on rather than typing
+
  
  

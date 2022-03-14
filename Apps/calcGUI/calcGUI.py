@@ -42,6 +42,9 @@ def clear():
     expression = ""
     equation.set("")
 
+def exitCalc():
+    gui.destroy()
+
 #Driver code
 if __name__ == "__main__":
     #create GUI window
@@ -115,6 +118,9 @@ if __name__ == "__main__":
 
     decBtn = Button(gui, text=" . ", fg="white", bg="gray", command=lambda: press("."), height=1, width=7)
     decBtn.grid(row=6, column=0)
+
+    exitBtn = Button(gui, text=" Exit ", fg="white", bg="gray", command=exitCalc, height=1, width=7)
+    exitBtn.grid(row=6, column=1)
 
     #start gui
     gui.mainloop()

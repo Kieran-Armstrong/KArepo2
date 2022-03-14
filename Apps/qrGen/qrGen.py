@@ -1,3 +1,5 @@
+
+
 import pyqrcode
 from pyqrcode import QRCode
 
